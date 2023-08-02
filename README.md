@@ -24,6 +24,29 @@ Our group's solution to the Home Credit Risk Analysis involved building a predic
 
 In the Home Credit Risk Analysis project, my primary contribution was to lead the data preprocessing and feature engineering stages. I collaborated with the team in brainstorming sessions we had on weekly basis in understanding of the dataset to understand the alternative data sources, including telco and transactional information, and integrated this data with the existing client attributes to create a comprehensive dataset. Through careful analysis and transformation of the data, I engineered meaningful features that captured crucial insights into borrowers' repayment abilities. Additionally, I played a key role in addressing class imbalance by applying a combination of upsampling and downsampling techniques to ensure a balanced training dataset for the predictive models. My efforts in optimizing the data representation and handling class imbalance significantly improved the model's performance in accurately predicting credit risk for the unbanked population. Throughout the project, I actively participated in EDA, Data cleaning, Model selection, evaluation, and interpretation, providing valuable insights and recommendations to enhance the model's transparency and fairness. Ultimately, my contributions contributed to Home Credit's mission of expanding financial inclusion and empowering clients with a positive and safe borrowing experience.
 
+# The business value of the solution.
+
+# Difficulties that your group encountered along the way.
+
+Throughout the Home Credit Risk Analysis project, our group encountered several challenges that required careful consideration and problem-solving. The significant difference in the number of loan defaulters and non-defaulters made it challenging to build a model that could accurately predict both classes. One of the main difficulties was dealing with the class imbalance in the dataset. We had to experiment with various upsampling and downsampling techniques to strike the right balance between the classes without introducing bias or overfitting.
+
+Moreover, interpreting and explaining the model's predictions was a significant challenge. As we used machine learning algorithms, understanding the decision-making process and providing transparent explanations for model predictions were not straightforward tasks. We dedicated considerable effort to employ model interpretability techniques and feature importance analysis to gain insights into the factors influencing credit risk predictions.
+
+Additionally, the project had strict timelines and limited resources, which added pressure to meet deadlines and efficiently allocate tasks among team members. All the team members are either in Full-time job roles or in Internships at various organizations. Regular communication and collaboration were essential to overcome these time constraints and ensure the project's progress remained on track.
+
+Overall, the difficulties we encountered in dealing with class imbalance, handling complex alternative data, interpreting model predictions, and managing project constraints were valuable learning experiences. By working collaboratively, seeking innovative solutions, and adapting our approaches, we successfully navigated these challenges and delivered a robust credit risk prediction model for Home Credit.
+
+# What you learned in the project.
+
+The Home Credit Risk Analysis project provided me with invaluable learning experiences across various aspects of data science and machine learning. Firstly, it is my first project deploying various machine learning models into a dataset which resulted in a good idea of how various machine learning models work. Also, I gained a deeper understanding of the challenges associated with imbalanced datasets and the importance of handling class imbalance effectively. 
+
+The project also taught me the value of effective collaboration and communication within a team setting. Regular meetings, clear task allocation, and leveraging each team member's expertise were crucial for project success, particularly given the project's strict timelines and limited resources.
+
+Overall, the Home Credit Risk Analysis project deepened my understanding of data science methodologies and their application in real-world scenarios. It enriched my skill set in handling imbalanced data, integrating diverse data sources, and interpreting complex machine learning models. The project's challenges and learning experiences have further motivated me to continue honing my data science expertise and contributing to impactful solutions in the field.
+
+
+
+
 
 
 
