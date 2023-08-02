@@ -11,20 +11,56 @@ Home Credit strives to broaden financial inclusion for the unbanked population b
 While Home Credit is currently using various statistical and machine learning methods to make these predictions, they're challenging Kagglers to help them unlock the full potential of their data. Doing so will ensure that clients capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
 
 # Business Problem:
-The business problem for the Home Loan Credit Risk analysis project is to build a predictive model that can assess the credit risk of individuals applying for home loans. Home Credit wants to minimize its risk exposure by identifying potential borrowers who are likely to default on its home loans. By analyzing historical loan data and borrower information, the goal is to create a model that accurately predicts whether a loan applicant is likely to default or not.
+The Business problem for the Home Loan Credit Risk analysis project is to build a predictive model that can assess the credit risk of individuals applying for home loans. Home Credit wants to minimize its risk exposure by identifying potential borrowers who are likely to default on its home loans. By analyzing historical loan data and borrower information, the goal is to create a model that accurately predicts whether a loan applicant is likely to default or not.
+
+In a concise way we can say that the Business Problem is to:
+#### Identify underserved individuals
+#### Assess repayment ability
+#### Predict high-risk clients
+
 
 # Project Objective:
 The project's objective is to develop a machine learning model that can effectively predict the creditworthiness of loan applicants for home mortgages. The model will be trained on historical loan data containing various attributes such as income, marital status,employment history, loan amount, and other relevant features. By using this historical data, the model will learn to recognize patterns and correlations that are indicative of a high or low credit risk.
 
+To put it simply project's objective is to:
+
+## Build a model to:
+#### Effectively extend loans to creditworthy individuals and decline those with insufficient repayment ability.
+#### Accurately assess and suggest the Home credit group regarding the applicant’s loan repayment capability
+
+
 # Your group's solution to the business problem.
 
-Our group's solution to the Home Credit Risk Analysis involved building a predictive model using machine learning techniques. Out of all the models employed, the Light Gradient Boosting (LGB) model followed by Random forest model turned out to be best models in assessing the creditworthiness of potential borrowers, particularly those with limited credit histories. The above two models received the best Kaggle score of .671 and .662 respectively.In this case, to address class imbalance in the dataset, we have used Upsampling and downsampling techniques. Ultimately, our solution contributed to Home Credit's mission of broadening financial inclusion and providing a positive borrowing experience for the unbanked population.
+Our group's solution to the Home Credit Risk Analysis involved building a predictive model using machine learning techniques. Out of all the models employed, the Light Gradient Boosting (LGB) model followed by Random forest model turned out to be best models in assessing the creditworthiness of potential borrowers, particularly those with limited credit histories. The above two models received the best Kaggle score of .671 and .662 respectively.In this case, to address class imbalance in the dataset, we have used Upsampling and downsampling techniques.
+
+The Top 3 features that helped in attaining the solution for the LGB model are 
+DAYS_ID_PUBLISH, 
+DAYS_REGISTRATION, 
+DAYS_LAST_PHONE_CHANGE. 
+
+We suggest HOME CREDIT group to disburse loans to the type of person
+
+1) who is MARRIED, 
+2) who has HIGHER EDUCATION, 
+3) who is a BUSINESSMAN,
+4) who OWNS A CAR and
+5) who OWNS A APARTMENT OR HOUSE.
+  
+Persons who meet the above conditions are less likely to default.
+
+Ultimately, our solution will contribute to Home Credit's mission of broadening financial inclusion and providing a positive borrowing experience for the unbanked population.
 
 # Your contribution to the project
 
-In the Home Credit Risk Analysis project, my primary contribution was to lead the data preprocessing and feature engineering stages. I collaborated with the team in brainstorming sessions we had on weekly basis in understanding of the dataset to understand the alternative data sources, including telco and transactional information, and integrated this data with the existing client attributes to create a comprehensive dataset. Through careful analysis and transformation of the data, I engineered meaningful features that captured crucial insights into borrowers' repayment abilities. Additionally, I played a key role in addressing class imbalance by applying a combination of upsampling and downsampling techniques to ensure a balanced training dataset for the predictive models. My efforts in optimizing the data representation and handling class imbalance significantly improved the model's performance in accurately predicting credit risk for the unbanked population. Throughout the project, I actively participated in EDA, Data cleaning, Model selection, evaluation, and interpretation, providing valuable insights and recommendations to enhance the model's transparency and fairness. Ultimately, my contributions contributed to Home Credit's mission of expanding financial inclusion and empowering clients with a positive and safe borrowing experience.
+In the Home Credit Risk Analysis project, my primary contribution was to lead the data preprocessing and feature engineering stages. I collaborated with the team where we had brainstorming sessions on weekly basis in understanding of the dataset. I took the initiative of conducting the weekly meetings, assigning tasks to the team members which helped all the members to be on the same page throughout the project.  Further, I actively participated in EDA, Data cleaning, Model selection, evaluation, and interpretation, providing valuable insights and recommendations to enhance the model's transparency and fairness.
+
+During the Modeling phase of the Home Credit Kaggle project, I made significant contributions by developing and implementing various models to predict loan repayment probabilities. Firstly, I worked on logistic regression model and contributed in combining all the machine learning models derived by the team members. Throughout the modeling phase, I conducted thorough evaluations using metrics such as Accuracy, ROC AUC score to assess model performance. These evaluations helped in selecting the most suitable models for deployment.Through careful analysis and transformation of the data, I engineered meaningful features that captured crucial insights into borrower's repayment abilities. 
+
+Additionally, I played a key role in addressing class imbalance by applying a combination of upsampling and downsampling techniques to ensure a balanced training dataset for the predictive models. My efforts in optimizing the data representation and handling class imbalance significantly improved the model's performance in accurately predicting credit risk for the unbanked population.  Ultimately, my contributions contributed to Home Credit's mission of expanding financial inclusion and empowering clients with a positive and safe borrowing experience.
 
 # The business value of the solution.
+
+The business value of the Home Credit Risk Analysis project lies in its ability to significantly enhance Home Credit's lending operations and contribute to the company's mission of financial inclusion
 
 # Difficulties that your group encountered along the way.
 
