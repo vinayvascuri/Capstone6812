@@ -60,7 +60,16 @@ Additionally, I played a key role in addressing class imbalance by applying a co
 
 # The business value of the solution.
 
-The business value of the Home Credit Risk Analysis project lies in its ability to significantly enhance Home Credit's lending operations and contribute to the company's mission of financial inclusion
+The business value of the Home Credit Risk Analysis project lies in its ability to significantly enhance Home Credit's lending operations and contribute to the company's mission of financial inclusion.
+
+In numeric terms, the business value can be evaluated as follows:
+
+1. *Default Prevention: Assuming the average mortgage in the portfolio is $200,000 and HomeCredit group grants 1000 loans per year. If historically 2% of loans defaulted and this model could prevent 50% of these, it would save the company 0.02*0.5*1000$200,000 = $2,000,000 per year.
+   
+2. *Improved Customer Satisfaction: Generally faster loan processing might increase the customer base. If Homecredit could attract even 1% more customers due to improved satisfaction, for a company processing 10,000 loans annually, this could equate to 100 additional loans. If the company earns a 1% origination fee on each loan of $200,000, this equates to 100$200,000*0.01 = $200,000 per year.
+
+These numbers are purely illustrative and the actual savings will depend on the specifics of your loan portfolio, the accuracy of the model, the cost of false negatives and positives, etc. 
+
 
 # Difficulties that your group encountered along the way.
 
